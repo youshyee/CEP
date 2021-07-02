@@ -1,7 +1,8 @@
 # CEP
 Official implementation for paper "Back to the Future: Cycle Encoding Prediction for Self-supervised Video Representation Learning"
 
-![]()
+![overview](https://github.com/youshyee/CEP/blob/master/overview.png)
+
 
 ## Getting Started
 ### Install required packages
