@@ -1,1 +1,5 @@
-theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
+title: "Back to the Future: Cycle Encoding Prediction for Self-supervised Contrastive Video Representation Learning"
+favicon: favicon.ico
+github:
+      is_project_page: false

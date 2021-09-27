@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<p align="center" style="font-size:30px">
+<a href="https://youshye.xyz/">Xinyu Yang</a> ,  <a href="http://people.cs.bris.ac.uk/~majid//">Majid Mirmehdi</a> and <a href="http://people.cs.bris.ac.uk/~burghard/">Tilo Burghardt</a>
+</p>
 
-You can use the [editor on GitHub](https://github.com/youshyee/CEP/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+![CEP](overview.jpg)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Abstract
 
-### Markdown
+In this paper, we show that learning video feature spaces in which temporal cycles are maximally predictable benefits action classification. In particular, we propose a novel learning approach, Cycle Encoding Prediction (CEP), that is able to effectively represent the high-level spatio-temporal structure of unlabelled video content. CEP builds a latent space wherein the concept of closed forward-backwards, as well as backwards-forward, temporal loops is approximately preserved. As a self-supervision signal, CEP leverages the bi-directional temporal coherence of entire video snippets and applies loss functions that encourage both temporal cycle closure and contrastive feature separation.  Architecturally, the underpinning network architecture utilises a single feature encoder for all input videos, adding two predictive modules that learn temporal forward and backward transitions. We apply our framework for pretext training of networks for action recognition tasks and report significantly improved results for the standard datasets UCF101 and HMDB51.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+
+## Paper
+
+[PDF](https://youshyee.xyz/pdfs/CEP.pdf)
+
+[ArXiv](https://arxiv.org/abs/2010.07217)
+
+## Bibtex
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+@inproceedings{yang2021back,
+  title={Back to the Future: Cycle Encoding Prediction for Self-supervised Contrastive Video Representation Learning},
+  author={Yang, Xinyu and Mirmehdi, Majid and Burghardt, Tilo},
+  booktitle={Proc. 32nd British Machine Vision Conference (BMVC)},
+  year={2021},
+  organization={BMVA Press}
+}
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/youshyee/CEP/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
