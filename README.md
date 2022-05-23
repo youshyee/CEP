@@ -1,4 +1,4 @@
-# CEP
+# [CEP](https://youshyee.xyz/CEP)
 Official implementation for paper "Back to the Future: Cycle Encoding Prediction for Self-supervised Video Representation Learning"
 
 
